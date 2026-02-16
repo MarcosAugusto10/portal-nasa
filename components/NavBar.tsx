@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { HomeIcon, CloudIcon } from "@heroicons/react/16/solid";
+import { HomeIcon, CloudIcon, SunIcon } from "@heroicons/react/16/solid";
 import clsx from "clsx";
 
 const links = [
@@ -12,6 +12,11 @@ const links = [
     href: "/natural-events",
     icon: CloudIcon,
   },
+  {
+    name: "Erupções Solares",
+    href: "/erupcao-solar",
+    icon: SunIcon
+  }
 ];
 
 export default function NavBar() {
